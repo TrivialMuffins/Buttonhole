@@ -47,8 +47,8 @@ public class JSONFetcher extends AsyncTask<Void,Void,Void> {
                 json_task_deadline = (String) JO2.get("task_deadline");
                 single_parsed=json_task_owner+ "\n";
                 single_parsed= single_parsed+"Task: " + json_task_name+"\n";
-                single_parsed=single_parsed+"Description: " + json_task_description+"\n";
-                single_parsed=single_parsed+"Deadline: "+ json_task_deadline+"\n\n";
+                single_parsed=single_parsed+"Description : " + json_task_description+"\n";
+                single_parsed=single_parsed+"Deadline : "+ json_task_deadline+"\n\n";
                 data_parsed+=single_parsed;
             }
         }
